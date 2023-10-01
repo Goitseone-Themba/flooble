@@ -1,0 +1,113 @@
+.main-container {
+    margin-top: 32px;
+    font-family: Nunito;
+} 
+body    {
+    background-color: #222222;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation {
+    color: #ffffff;
+    font-weight: normal;
+    display: flex;
+    margin-right: 32px;
+    margin-left: 32px;
+}
+
+.left-nav   {
+    margin-right: auto;
+}
+
+.right-nav  {
+    margin-left: auto;
+}
+
+.link   {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.apps   {
+    width: 24px;
+    vertical-align: middle;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.profile-pic    {
+    width: 32px;
+    border-radius: 16px;
+    vertical-align: middle;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.search-container   {
+    margin-top: 128px;
+}
+
+.logo   {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-input   {
+    width: 650px;
+    line-height: 24px;
+    display: block;
+    margin-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 8px;
+    border: none;
+    border-radius: 32px;
+}
+
+.btn-container  {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn    {
+    color: #222222;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    
+    border: none;
+    border-radius: 4px;
+}
+
+footer  {
+    height: 32px;
+    color: #ffffff;
+    display: flex;
+    font-weight: normal;
+    background-color: gray;
+    margin-top: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    padding-top: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.left-foot  {
+    margin-right: auto;
+}
+
+.right-foot  {
+    margin-left: auto;
+}
