@@ -1,5 +1,5 @@
 .main-container {
-    margin-top: 32px;
+    margin-top: 16px;
     font-family: Nunito;
 } 
 body    {
@@ -90,14 +90,16 @@ body    {
 }
 
 footer  {
+    width: match-parent;
     height: 32px;
     color: #ffffff;
     display: flex;
+    flex-wrap: wrap;
     font-weight: normal;
-    background-color: gray;
+    background-color: rgb(73, 73, 73);
     margin-top: auto;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: none;
+    margin-right: none;
 
     padding-top: 16px;
     padding-left: 32px;
